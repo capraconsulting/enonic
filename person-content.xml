@@ -1,0 +1,17 @@
+<contenttype>
+    <config name="Person" version="1.0">
+        <form>
+            <title name="surname" />
+            <block name="Personalia">
+                <input name="firstname" required="true" type="text">
+                    <display>Firstname</display>
+                    <xpath>contentdata/firstname</xpath>
+                </input>
+                <input name="surname" required="true" type="text">
+                    <display>Surname</display>
+                    <xpath>contentdata/surname</xpath>
+                </input>
+            </block>
+        </form>
+    </config>
+</contenttype>
